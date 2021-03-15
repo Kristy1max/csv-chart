@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  margin: 0 auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.575)), to(rgba(0, 0, 0, 0.603))), url(https://images.unsplash.com/photo-1470364798856-7a74180378dc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1153&q=80);
+  background: linear-gradient(rgba(0, 0, 0, 0.575), rgba(0, 0, 0, 0.603)), url(https://images.unsplash.com/photo-1470364798856-7a74180378dc?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1153&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1rem 2rem;
+  box-sizing: border-box;
+}
+
+#chart {
+  height: 100% !important;
+}
+
+.footer {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 15vh;
+  padding: 0px 50px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.footer-links {
+  display: inline-block;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 20px;
+}
+
+.footer-letswork {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer-links a {
+  color: black;
+  opacity: 0.15;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+
+.footer-links a:hover {
+  opacity: 1;
+  color: #ff6384;
+  -webkit-transition-timing-function: ease-in-out;
+          transition-timing-function: ease-in-out;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.footer .fa-heart {
+  color: #D23333;
+}
+
+.footer-copyright {
+  margin: 1%;
+}
+
+@media only screen and (max-width: 950px) {
+  #chart {
+    height: 50% !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
